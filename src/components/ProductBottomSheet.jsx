@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import './ProductBottomSheet.css';
+import MenuImage from './MenuImage';
 
 function ProductBottomSheet({ item, isOpen, onClose }) {
   const [selections, setSelections] = useState({});
@@ -71,6 +72,8 @@ function ProductBottomSheet({ item, isOpen, onClose }) {
 
   if (!item) return null;
 
+  const hasImage = Boolean(item.image);
+
   return (
     <>
       <div
@@ -85,25 +88,25 @@ function ProductBottomSheet({ item, isOpen, onClose }) {
         <div className="bottom-sheet-content">
           {/* Product Header */}
           <div className="product-header">
-            <div className="product-image-wrapper" onClick={() => setShowLightbox(true)}>
-              <img
+            <div
+              className="product-image-wrapper"
+              onClick={hasImage ? () => setShowLightbox(true) : undefined}
+              style={hasImage ? undefined : { cursor: 'default' }}
+            >
+              <MenuImage
                 src={item.image}
                 alt={item.name}
                 className="product-image"
-                loading="lazy"
-                decoding="async"
-                onError={(e) => {
-                  e.target.onerror = null;
-                  e.target.src = item.placeholder;
-                }}
               />
-              <div className="zoom-hint">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <circle cx="11" cy="11" r="8"></circle>
-                  <path d="m21 21-4.35-4.35"></path>
-                  <path d="M11 8v6M8 11h6"></path>
-                </svg>
-              </div>
+              {hasImage && (
+                <div className="zoom-hint">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <path d="m21 21-4.35-4.35"></path>
+                    <path d="M11 8v6M8 11h6"></path>
+                  </svg>
+                </div>
+              )}
             </div>
             <div className="product-info">
               <h2 className="product-name">{item.name}</h2>
@@ -168,7 +171,7 @@ function ProductBottomSheet({ item, isOpen, onClose }) {
       </div>
 
       {/* Image Lightbox */}
-      {showLightbox && (
+      {showLightbox && hasImage && (
         <div className="lightbox" onClick={() => setShowLightbox(false)}>
           <button className="lightbox-close">
             <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">

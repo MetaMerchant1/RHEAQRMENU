@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './MenuGrid.css';
 import ProductBottomSheet from './ProductBottomSheet';
+import MenuImage from './MenuImage';
 
 function MenuGrid({ category, onBack }) {
   const [selectedItem, setSelectedItem] = useState(null);
@@ -36,16 +37,10 @@ function MenuGrid({ category, onBack }) {
             onClick={() => handleItemClick(item)}
           >
             <div className="grid-item-image-wrapper">
-              <img
+              <MenuImage
                 src={item.image}
                 alt={item.name}
                 className="grid-item-image"
-                loading="lazy"
-                decoding="async"
-                onError={(e) => {
-                  e.target.onerror = null;
-                  e.target.src = item.placeholder;
-                }}
               />
             </div>
             <div className="grid-item-info">

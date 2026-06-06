@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Warm Cream Minimalist Light Theme */
+  --bg-primary: #FAF9F6;    /* Very soft warm off-white / Alabaster */
+  --bg-secondary: #FFFFFF;  /* Pure white for cards and floating sheets */
+  --bg-tertiary: #F3F1EC;   /* Soft warm sand for subtle container fills */
+
+  /* Luxury Accent Color - Deep Forest Emerald / Jade */
+  --accent: #0A5C50;        /* Elegant dark teal/emerald */
+  --accent-dim: #053D35;    /* Darker shade for active states */
+
+  /* Text Colors */
+  --text-primary: #1C1917;  /* Soft charcoal black */
+  --text-secondary: #6B6661;/* Muted warm earth gray */
+  --text-muted: #9E9892;    /* Discretely disabled text */
+
+  /* Borders & Dividers */
+  --border: #E6E2DA;        /* Light warm sand border */
+  --border-light: #F1EFEA;  /* Soft divider lines */
+
+  /* Shadows - Sophisticated & Soft */
+  --shadow-sm: 0 2px 8px rgba(28, 25, 23, 0.04);
+  --shadow-md: 0 8px 24px rgba(28, 25, 23, 0.08);
+
+  /* Legacy compatibility */
+  --primary: #0A5C50;
+  --white: #FFFFFF;
+  --gray-light: #FAF9F6;
+  --gray-medium: #F3F1EC;
+  --gray-dark: #9E9892;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

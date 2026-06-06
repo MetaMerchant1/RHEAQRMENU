@@ -29,3 +29,6 @@ Thumbs.db
 
 # Local Netlify folder
 .netlify
+
+# Local dev scripts (image processing, scraping helpers)
+scratch/

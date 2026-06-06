@@ -90,6 +90,8 @@ function ProductBottomSheet({ item, isOpen, onClose }) {
                 src={item.image}
                 alt={item.name}
                 className="product-image"
+                loading="lazy"
+                decoding="async"
                 onError={(e) => {
                   e.target.onerror = null;
                   e.target.src = item.placeholder;

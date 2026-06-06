@@ -40,6 +40,8 @@ function MenuGrid({ category, onBack }) {
                 src={item.image}
                 alt={item.name}
                 className="grid-item-image"
+                loading="lazy"
+                decoding="async"
                 onError={(e) => {
                   e.target.onerror = null;
                   e.target.src = item.placeholder;

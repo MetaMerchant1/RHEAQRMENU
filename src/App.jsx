@@ -66,7 +66,7 @@ function App() {
         )}
       </main>
       <footer className="footer">
-        <p>RHEA Coffee & More</p>
+        <p>RHEA Coffee & Eatry</p>
       </footer>
     </div>
   );

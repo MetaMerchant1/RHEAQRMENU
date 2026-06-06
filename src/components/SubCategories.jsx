@@ -1,4 +1,5 @@
 import './SubCategories.css';
+import MenuImage from './MenuImage';
 
 function SubCategories({ categories, parentName, onSelect, onBack }) {
   return (
@@ -19,7 +20,7 @@ function SubCategories({ categories, parentName, onSelect, onBack }) {
             onClick={() => onSelect(category)}
           >
             <div className="sub-image-wrapper">
-              <img
+              <MenuImage
                 src={category.image}
                 alt={category.name}
                 className="sub-image"

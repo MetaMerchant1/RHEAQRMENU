@@ -1,4 +1,5 @@
 import './MainCategories.css';
+import MenuImage from './MenuImage';
 
 function MainCategories({ categories, onSelect }) {
   return (
@@ -12,10 +13,11 @@ function MainCategories({ categories, onSelect }) {
             onClick={() => onSelect(category.id)}
           >
             <div className="main-image-wrapper">
-              <img
+              <MenuImage
                 src={category.image}
                 alt={category.name}
                 className="main-image"
+                eager
               />
             </div>
             <h3 className="main-name">{category.name}</h3>

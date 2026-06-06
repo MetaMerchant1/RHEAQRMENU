@@ -275,19 +275,19 @@ export const mainCategories = [
   {
     id: "coffee",
     name: "COFFEE",
-    image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&h=600&fit=crop",
+    image: "/images/menu 2/Latte.webp",
     placeholder: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&h=600&fit=crop"
   },
   {
     id: "food",
     name: "FOOD",
-    image: "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=600&h=600&fit=crop",
+    image: "/images/menu 3/margaritha( peynirli.webp",
     placeholder: "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=600&h=600&fit=crop"
   },
   {
     id: "drinks",
     name: "DRINKS",
-    image: "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=600&h=600&fit=crop",
+    image: "/images/menu 2/cool lime.webp",
     placeholder: "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=600&h=600&fit=crop"
   }
 ];
@@ -298,7 +298,7 @@ export const subCategories = {
       id: "hot-drinks",
       name: "HOT DRINKS",
       subtitle: "SICAK İÇECEKLER",
-      image: "https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=400&h=400&fit=crop",
+      image: "/images/menu/cay-bardagi.webp",
     placeholder: "https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=400&h=400&fit=crop",
       items: [
         { id: 1, name: "Çay", description: "Geleneksel çay, özenle seçilmiş ve öğütülmüş çay yapraklarından hazırlanır. Her bardak, doğadan gelen tazelik ve lezzet sunar.", price: 60, image: "/images/menu/cay-bardagi.webp", placeholder: "https://images.unsplash.com/photo-1624457245795-4b0eac9305b2?w=400&h=400&fit=crop", customizations: teaCustomizations },
@@ -323,7 +323,7 @@ export const subCategories = {
       id: "espresso-coffees",
       name: "ESPRESSO COFFEES",
       subtitle: "ESPRESSO BAZLI KAHVELER",
-      image: "https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?w=400&h=400&fit=crop",
+      image: "/images/menu 3/cold brew.webp",
     placeholder: "https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?w=400&h=400&fit=crop",
       items: [
         { id: 40, name: "Cold Brew", description: "Bu özel içecek, yavaş demlenmiş kahve çekirdeklerinden hazırlanır ve uzun süre soğuk suda demlenerek özel bir lezzet elde edilir. Her yudumda size ferahlayıcı ve diri bir deneyim sunar.", price: 190, image: "/images/menu 3/cold brew.webp", placeholder: "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=400&h=400&fit=crop", customizations: [] },
@@ -338,7 +338,7 @@ export const subCategories = {
       id: "rhea-lattes",
       name: "RHEA LATTES",
       subtitle: "SPESİYAL LATTELER",
-      image: "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=400&h=400&fit=crop",
+      image: "/images/menu 2/Latte.webp",
     placeholder: "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=400&h=400&fit=crop",
       items: [
         { id: 35, name: "Rhea Toffifee Latte", description: "Fındık, karamel ve çikolatanın enfes uyumu, kremamsı sütle birleşerek sıcak ve soğuk seçeneklerle sunuluyor. Sıcak versiyonu, soğuk günlerde tatlı bir keyif sunarken, soğuk versiyonu ferahlatıcı bir tatlı deneyimi sağlar. Her iki şekilde de, çikolata ve karamelin yumuşak lezzetiyle kendinizi şımartın.", price: 200, image: "/images/menu 2/Latte.webp", placeholder: "https://images.unsplash.com/photo-1497636577773-f1231844b336?w=400&h=400&fit=crop", customizations: temperatureCustomizations },
@@ -354,7 +354,7 @@ export const subCategories = {
       id: "matcha-lattes",
       name: "MATCHA LATTES",
       subtitle: "MATCHA LATTELER",
-      image: "https://images.unsplash.com/photo-1515823064-d6e0c04616a7?w=400&h=400&fit=crop",
+      image: "/images/menu/banana-matcha-latte.webp",
     placeholder: "https://images.unsplash.com/photo-1515823064-d6e0c04616a7?w=400&h=400&fit=crop",
       items: [
         { id: 30, name: "Matcha Latte", description: "Yeşil çayın doğal enerjisi ve kremsi sütün mükemmel birleşimi, hem sıcak hem de soğuk seçenekleriyle sunuluyor. Sıcak versiyonu, huzur veren bir içim deneyimi sağlarken, soğuk versiyonu ferahlatıcı bir tat patlaması yaratır. Her iki şekilde de ruhunuza dinginlik katar.", price: 210, image: "", placeholder: "https://images.unsplash.com/photo-1515823064-d6e0c04616a7?w=400&h=400&fit=crop", customizations: temperatureCustomizations },
@@ -369,7 +369,7 @@ export const subCategories = {
       id: "snacks",
       name: "SNACKS",
       subtitle: "ATIŞTIRMALIKLAR",
-      image: "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400&h=400&fit=crop",
+      image: "/images/menu 3/dana jambon kaşarlı kruvasan.webp",
     placeholder: "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400&h=400&fit=crop",
       items: [
         { id: 67, name: "Rhea Kahvaltı", description: "Tabağımızda taze ve lezzetli malzemelerle hazırlanmış bir kahvaltı şöleni sunuyoruz. Tulum peyniri ve çeçil peyniri gibi zengin peynir çeşitleriyle başlayarak, siyah ve yeşil zeytinlerle tuzlu tadı dengeleyip, bal, kaymak ve tereyağıyla tatlandırıyoruz. Cherry domates, salatalık, lolo rosso, roka ve maydanoz gibi taze sebzelerle tabağımızı renklendiriyoruz. Taze kruvasanın hafif dokusu ve diğer lezzetlerle birleşen enfes aroması, güne başlarken size keyifli bir başlangıç sunuyor.", price: 320, image: "", placeholder: "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=400&h=400&fit=crop", customizations: snackCustomizations },
@@ -388,7 +388,7 @@ export const subCategories = {
       id: "pizzas",
       name: "PIZZAS",
       subtitle: "PİZZALAR",
-      image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400&h=400&fit=crop",
+      image: "/images/menu 3/margaritha( peynirli.webp",
     placeholder: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400&h=400&fit=crop",
       items: [
         { id: 80, name: "Rhea Margherita", description: "Pizza Sos, Mozzarella, Roka, Parmesan", price: 250, image: "/images/menu 3/margaritha( peynirli.webp", placeholder: "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=400&h=400&fit=crop", customizations: getPizzaCustomizations(80) },
@@ -402,7 +402,7 @@ export const subCategories = {
       id: "salads",
       name: "SALADS",
       subtitle: "SALATALAR",
-      image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&h=400&fit=crop",
+      image: "/images/menu 3/sezar salad.webp",
     placeholder: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&h=400&fit=crop",
       items: [
         { id: 90, name: "Sezar Salad", description: "İçerisindeki özenle seçilmiş tavuk dilimleri, marul, kruton ekmek, mayonez, hardal ve soya sosu ile harmanlanıyor, size doyurucu ve lezzetli bir deneyim sunuyor. Ançuez ve kapari ile zenginleştirilen bu lezzet şöleni, damak tadınıza unutulmaz bir tat katıyor.", price: 300, image: "/images/menu 3/sezar salad.webp", placeholder: "https://images.unsplash.com/photo-1550304943-4f24f54ddde9?w=400&h=400&fit=crop", customizations: saladCustomizations },
@@ -415,7 +415,7 @@ export const subCategories = {
       id: "desserts",
       name: "DESSERTS",
       subtitle: "TATLILAR",
-      image: "https://images.unsplash.com/photo-1551024601-bec78aea704b?w=400&h=400&fit=crop",
+      image: "/images/menu 3/cookie cake.webp",
     placeholder: "https://images.unsplash.com/photo-1551024601-bec78aea704b?w=400&h=400&fit=crop",
       items: [
         { id: 100, name: "Cookie Cake", description: "Dışı hafif çıtır içi yumuşacık Belçika çikolatalı cookie hamuru; ceviz ve Antep fıstığıyla zenginleştirilmiştir. Bu özel tatlı, yoğun çikolata aroması ve dengeli dokusuyla keyifli bir deneyim sunar. (Sıcak servis edilir.)", price: 320, image: "/images/menu 3/cookie cake.webp", placeholder: "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=400&h=400&fit=crop", customizations: dessertCustomizations },
@@ -458,7 +458,7 @@ export const subCategories = {
       id: "refreshas",
       name: "REFRESHAS",
       subtitle: "SERİN İÇECEKLER",
-      image: "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=400&h=400&fit=crop",
+      image: "/images/menu 2/cool lime.webp",
     placeholder: "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=400&h=400&fit=crop",
       items: [
         { id: 150, name: "Cool Lime", description: "Cool Lime, ferahlatıcı bir serinlik ve canlandırıcı bir lezzet sunan özel bir içecektir. Bu benzersiz içecek, taptaze lime dilimlerinin mükemmel tadıyla öne çıkar.", price: 170, image: "/images/menu 2/cool lime.webp", placeholder: "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=400&h=400&fit=crop", customizations: coldDrinkCustomizations },
@@ -475,7 +475,7 @@ export const subCategories = {
       id: "summer",
       name: "SUMMER",
       subtitle: "YAZLIKLAR",
-      image: "https://images.unsplash.com/photo-1544145945-f90425340c7e?w=400&h=400&fit=crop",
+      image: "/images/menu/crunchy-dubai.webp",
     placeholder: "https://images.unsplash.com/photo-1544145945-f90425340c7e?w=400&h=400&fit=crop",
       items: [
         { id: 160, name: "Crunchy Dubai", description: "Çikolata ile kaplı özel sunumuyla ilk bakışta fark yaratır. Yoğun aroması ve serinletici dokusuyla klasikleşmiş soğuk kahve deneyimine modern bir yorum katar. Günün her saatinde keyifle içilebilir, özellikle tatlı kaçamaklarına eşlik etmek için birebirdir.", price: 250, image: "/images/menu/crunchy-dubai.webp", placeholder: "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=400&h=400&fit=crop", customizations: [] },
@@ -489,7 +489,7 @@ export const subCategories = {
       id: "mojitos",
       name: "MOJITOS",
       subtitle: "MOJİTOLAR",
-      image: "https://images.unsplash.com/photo-1551538827-9c037cb4f32a?w=400&h=400&fit=crop",
+      image: "/images/menu 2/Strawberry mojito.webp",
     placeholder: "https://images.unsplash.com/photo-1551538827-9c037cb4f32a?w=400&h=400&fit=crop",
       items: [
         { id: 170, name: "Strawberry Mojito", description: "Çileğin tatlılığı, hibiscus özünün hafif asidik dokusu ve taze nane yapraklarının ferahlığıyla bir araya geliyor. Üzerindeki soda ile canlandırıcı bir içecek deneyimi sunan bu özel tarif, yazın neşesini her yudumda hissettiriyor.", price: 200, image: "/images/menu 2/Strawberry mojito.webp", placeholder: "https://images.unsplash.com/photo-1536935338788-846bb9981813?w=400&h=400&fit=crop", customizations: iceCustomizations },
@@ -501,7 +501,7 @@ export const subCategories = {
       id: "frozens",
       name: "FROZENS",
       subtitle: "BUZLU İÇECEKLER",
-      image: "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=400&h=400&fit=crop",
+      image: "/images/menu 2/Berry mango splash.webp",
     placeholder: "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=400&h=400&fit=crop",
       items: [
         { id: 180, name: "Berry Splash", description: "Orman meyvelerinin yoğun aromasıyla hazırlanan bu frozen içecek, serinletici ve meyvemsi bir deneyim sunar. Yoğun dokusu ve tatlı ekşiliğiyle her yudumda ferahlayıcı bir lezzet patlaması yaşatır, sıcak günlerin en keyifli içeceği olmaya aday.", price: 200, image: "/images/menu 2/Berry mango splash.webp", placeholder: "https://images.unsplash.com/photo-1553530666-ba11a7da3888?w=400&h=400&fit=crop", customizations: [] },
@@ -513,7 +513,7 @@ export const subCategories = {
       id: "lemonades",
       name: "LEMONADES",
       subtitle: "LİMONATALAR",
-      image: "https://images.unsplash.com/photo-1621263764928-df1444c5e859?w=400&h=400&fit=crop",
+      image: "/images/menu 2/Narlı limonata.webp",
     placeholder: "https://images.unsplash.com/photo-1621263764928-df1444c5e859?w=400&h=400&fit=crop",
       items: [
         { id: 190, name: "Pomegranate Lemonade", description: "Her bir yudumunda ferahlık ve keyif sunan bu limonata, içeriğindeki Mavi kelebek çayı ve hibiscus çayı ile göz alıcı bir rengi size seçme şansı verirken, eşsiz bir aroma profiline sahiptir. Ekşi limonun canlandırıcı tadı, tatlı nar suyu ile birleşerek muhteşem bir denge oluşturur.", price: 180, image: "/images/menu 2/Narlı limonata.webp", placeholder: "https://images.unsplash.com/photo-1497534446932-c925b458314e?w=400&h=400&fit=crop", customizations: lemonadeCustomizations },
@@ -528,7 +528,7 @@ export const subCategories = {
       id: "bubble-tea",
       name: "BUBBLE TEA",
       subtitle: "BUBBLE TEA",
-      image: "https://images.unsplash.com/photo-1558857563-b371033873b8?w=400&h=400&fit=crop",
+      image: "/images/menu 2/Orange mango bubble.webp",
     placeholder: "https://images.unsplash.com/photo-1558857563-b371033873b8?w=400&h=400&fit=crop",
       items: [
         { id: 200, name: "Orange Mango Bubble", description: "Portakal ve mango aromalarıyla birleşerek, her yudumda ferahlık ve taze bir lezzet deneyimi sunan, serinletici bir içecek. Bu özel içecek, taze portakal ve mango meyvelerinin muhteşem bir uyumuyla birlikte, misafirlerimizin kişisel tercihlerine göre kivi, çilek, çarkıfelek, tropikal toplarıyla zenginleştirilebiliyor.", price: 200, image: "/images/menu 2/Orange mango bubble.webp", placeholder: "https://images.unsplash.com/photo-1558857563-b371033873b8?w=400&h=400&fit=crop", customizations: bubbleTeaCustomizations },
@@ -546,7 +546,7 @@ export const subCategories = {
       id: "shakes",
       name: "SHAKES",
       subtitle: "MILKSHAKELER",
-      image: "https://images.unsplash.com/photo-1579954115545-a95591f28bfc?w=400&h=400&fit=crop",
+      image: "",
     placeholder: "https://images.unsplash.com/photo-1579954115545-a95591f28bfc?w=400&h=400&fit=crop",
       items: [
         { id: 210, name: "RHEA Wild Berries", description: "Orman meyveli taze lezzetli milkshake.", price: 220, image: "", placeholder: "https://images.unsplash.com/photo-1553530666-ba11a7da3888?w=400&h=400&fit=crop", customizations: shakeCustomizations },
@@ -560,7 +560,7 @@ export const subCategories = {
       id: "soft-drinks",
       name: "SOFT DRINKS",
       subtitle: "KUTU VE ŞİŞE İÇECEKLER",
-      image: "/images/menu/coca cola.webp",
+      image: "/images/menu 3/coca cola.webp",
       placeholder: "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?w=400&h=400&fit=crop",
       items: [
         { id: 250, name: "Coca Cola (Kutu)", description: "Soğuk kutu Coca Cola", price: 90, image: "/images/menu 3/coca cola.webp", placeholder: "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?w=400&h=400&fit=crop", customizations: iceCustomizations },
